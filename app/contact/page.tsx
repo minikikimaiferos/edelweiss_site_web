@@ -13,18 +13,18 @@ export default function ContactPage() {
     <div className="relative min-h-screen">
       {/* Infos contact en haut à droite */}
       <div className="absolute top-8 right-[-0.3cm] z-20 text-center mt-[1cm]">
-        <div className={`${arcadeFont.className} text-[#ffcdf0] space-y-6 text-[70%] px-6 py-4`}>
+        <div className={`${arcadeFont.className} text-[#ffcdf0] space-y-6 text-[98%] px-6 py-4`}>
           <div className="mb-8">
-            <span className="underline text-[90%]">weisscouture@gmail.com</span>
+            <span className="underline text-[113%]">weisscouture@gmail.com</span>
           </div>
           <div className="mb-8">
-            tél : <span className="underline">+32489923085</span>
+            tél : <span className="underline text-[126%]">+32489923085</span>
           </div>
           <div className="mb-8">
-            insta : <span className="underline">weisscouture</span>
+            insta : <span className="underline text-[126%]">weisscouture</span>
           </div>
           {/* Logo Edel */}
-          <div className="relative w-[150px] h-[150px] mx-auto mt-8">
+          <div className="relative w-[195px] h-[195px] mx-auto mt-8">
             <Image
               src="/logo_edel.png"
               alt="Logo Edel"
